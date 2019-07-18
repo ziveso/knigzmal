@@ -1,103 +1,229 @@
 fileFormatVersion: 2
 guid: 148a7416d4c344a42bb28cb23ee31708
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Window_Header
-    21300002: TextField_Normal
-    21300004: ProgressBar_Filler
-    21300006: TextField_Hover
-    21300008: RadioButton
-    21300010: RadioButton_Thumb
-    21300012: TextField_Pressed
-    21300014: CheckBox
-    21300016: CheckBox_Thumb
-    21300018: Slider
-    21300020: Slider_Thumb
-    21300022: PopupList_BG
-    21300024: MenuButton_Normal
-    21300026: MenuButton_Hover
-    21300028: PauseButton_Hover
-    21300030: SoundButton_Hover
-    21300032: MenuButton_Pressed
-    21300034: PauseButton_Pressed
-    21300036: SoundButton_Pressed
-    21300038: NextButton_Normal
-    21300040: PlayButton_Normal
-    21300042: SoundOffButton_Normal
-    21300044: NextButton_Hover
-    21300046: PlayButton_Hover
-    21300048: SoundOffButton_Hover
-    21300050: NextButton_Pressed
-    21300052: PlayButton_Pressed
-    21300054: SoundOffButton_Pressed
-    21300056: OptionsButton_Normal
-    21300058: RetryButton_Normal
-    21300060: HelpButton_Normal
-    21300062: OptionsButton_Hover
-    21300064: RetryButton_Hover
-    21300066: HelpButton_Hover
-    21300068: OptionsButton_Pressed
-    21300070: RetryButton_Pressed
-    21300072: HelpButton_Pressed
-    21300074: ProgressBar
-    21300076: PauseButton_Normal
-    21300078: SoundButton_Normal
-    21300080: Window
-    21300082: Slider_Filler
-    21300084: PopupList_Normal
-    21300086: PopupList_Hover
-    21300088: EmptyButton_Normal
-    21300090: EmptyButton_Hover
-    21300092: EmptyButton_Pressed
-    21300094: empty
-    21300096: Slider_Vertical
-    21300098: Icon_Lock
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Window_Header
+  - first:
+      213: 21300002
+    second: TextField_Normal
+  - first:
+      213: 21300004
+    second: ProgressBar_Filler
+  - first:
+      213: 21300006
+    second: TextField_Hover
+  - first:
+      213: 21300008
+    second: RadioButton
+  - first:
+      213: 21300010
+    second: RadioButton_Thumb
+  - first:
+      213: 21300012
+    second: TextField_Pressed
+  - first:
+      213: 21300014
+    second: CheckBox
+  - first:
+      213: 21300016
+    second: CheckBox_Thumb
+  - first:
+      213: 21300018
+    second: Slider
+  - first:
+      213: 21300020
+    second: Slider_Thumb
+  - first:
+      213: 21300022
+    second: PopupList_BG
+  - first:
+      213: 21300024
+    second: MenuButton_Normal
+  - first:
+      213: 21300026
+    second: MenuButton_Hover
+  - first:
+      213: 21300028
+    second: PauseButton_Hover
+  - first:
+      213: 21300030
+    second: SoundButton_Hover
+  - first:
+      213: 21300032
+    second: MenuButton_Pressed
+  - first:
+      213: 21300034
+    second: PauseButton_Pressed
+  - first:
+      213: 21300036
+    second: SoundButton_Pressed
+  - first:
+      213: 21300038
+    second: NextButton_Normal
+  - first:
+      213: 21300040
+    second: PlayButton_Normal
+  - first:
+      213: 21300042
+    second: SoundOffButton_Normal
+  - first:
+      213: 21300044
+    second: NextButton_Hover
+  - first:
+      213: 21300046
+    second: PlayButton_Hover
+  - first:
+      213: 21300048
+    second: SoundOffButton_Hover
+  - first:
+      213: 21300050
+    second: NextButton_Pressed
+  - first:
+      213: 21300052
+    second: PlayButton_Pressed
+  - first:
+      213: 21300054
+    second: SoundOffButton_Pressed
+  - first:
+      213: 21300056
+    second: OptionsButton_Normal
+  - first:
+      213: 21300058
+    second: RetryButton_Normal
+  - first:
+      213: 21300060
+    second: HelpButton_Normal
+  - first:
+      213: 21300062
+    second: OptionsButton_Hover
+  - first:
+      213: 21300064
+    second: RetryButton_Hover
+  - first:
+      213: 21300066
+    second: HelpButton_Hover
+  - first:
+      213: 21300068
+    second: OptionsButton_Pressed
+  - first:
+      213: 21300070
+    second: RetryButton_Pressed
+  - first:
+      213: 21300072
+    second: HelpButton_Pressed
+  - first:
+      213: 21300074
+    second: ProgressBar
+  - first:
+      213: 21300076
+    second: PauseButton_Normal
+  - first:
+      213: 21300078
+    second: SoundButton_Normal
+  - first:
+      213: 21300080
+    second: Window
+  - first:
+      213: 21300082
+    second: Slider_Filler
+  - first:
+      213: 21300084
+    second: PopupList_Normal
+  - first:
+      213: 21300086
+    second: PopupList_Hover
+  - first:
+      213: 21300088
+    second: EmptyButton_Normal
+  - first:
+      213: 21300090
+    second: EmptyButton_Hover
+  - first:
+      213: 21300092
+    second: EmptyButton_Pressed
+  - first:
+      213: 21300094
+    second: empty
+  - first:
+      213: 21300096
+    second: Slider_Vertical
+  - first:
+      213: 21300098
+    second: Icon_Lock
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Window_Header
+    - serializedVersion: 2
+      name: Window_Header
       rect:
         serializedVersion: 2
         x: 4
@@ -105,9 +231,20 @@ TextureImporter:
         width: 551
         height: 69
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TextField_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ae4c24ec7f74352b36813735c64f63
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextField_Normal
       rect:
         serializedVersion: 2
         x: 561
@@ -115,9 +252,20 @@ TextureImporter:
         width: 456
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ProgressBar_Filler
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9221453e479ee404a99813629b1fee68
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar_Filler
       rect:
         serializedVersion: 2
         x: 476
@@ -125,9 +273,20 @@ TextureImporter:
         width: 56
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TextField_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf7901ece67741f98734ea9ebaa6ead
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextField_Hover
       rect:
         serializedVersion: 2
         x: 561
@@ -135,9 +294,20 @@ TextureImporter:
         width: 456
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RadioButton
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f022904a2184fc99b06e79ac164c06
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadioButton
       rect:
         serializedVersion: 2
         x: 471
@@ -145,9 +315,20 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RadioButton_Thumb
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bef406b0399e4e12804c8c96c2bfd58
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadioButton_Thumb
       rect:
         serializedVersion: 2
         x: 515
@@ -155,9 +336,20 @@ TextureImporter:
         width: 17
         height: 18
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TextField_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d7539163a8b40859aca951b23e7e29
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextField_Pressed
       rect:
         serializedVersion: 2
         x: 560
@@ -165,9 +357,20 @@ TextureImporter:
         width: 459
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: CheckBox
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87e6a91e73d24b13987616bc7681433
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckBox
       rect:
         serializedVersion: 2
         x: 472
@@ -175,9 +378,20 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: CheckBox_Thumb
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e08bb543c104f09ab66833d4973a75
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckBox_Thumb
       rect:
         serializedVersion: 2
         x: 513
@@ -185,9 +399,20 @@ TextureImporter:
         width: 22
         height: 20
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Slider
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc55732b8b69a47c19c8ddfb8ad62098
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider
       rect:
         serializedVersion: 2
         x: 323
@@ -195,9 +420,20 @@ TextureImporter:
         width: 456
         height: 17
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Slider_Thumb
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5607337ae9d4d35a4f9dd110b2fa17
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Thumb
       rect:
         serializedVersion: 2
         x: 791
@@ -205,9 +441,20 @@ TextureImporter:
         width: 11
         height: 30
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PopupList_BG
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0186f0a43cd540a0b8b425c98653024
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_BG
       rect:
         serializedVersion: 2
         x: 870
@@ -215,9 +462,20 @@ TextureImporter:
         width: 142
         height: 143
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MenuButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64044f0faf58a43adb9f6f95fffbb5e5
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButton_Normal
       rect:
         serializedVersion: 2
         x: 787
@@ -225,9 +483,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MenuButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a47fc73e3394b89b23e71cfaedb8c8
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButton_Hover
       rect:
         serializedVersion: 2
         x: 788
@@ -235,9 +504,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PauseButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56fac9a4f1c548a2a4d8c5d4b2bc817
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseButton_Hover
       rect:
         serializedVersion: 2
         x: 861
@@ -245,9 +525,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ade849945a54911a5d6fbc80fae807
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundButton_Hover
       rect:
         serializedVersion: 2
         x: 936
@@ -255,9 +546,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MenuButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e8232ccae1b41219a972ed404bf694
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButton_Pressed
       rect:
         serializedVersion: 2
         x: 787
@@ -265,9 +567,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PauseButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6bffb702dcf4957b9e8dd5779f6017
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseButton_Pressed
       rect:
         serializedVersion: 2
         x: 860
@@ -275,9 +588,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd97f0f60abd04dd0bd286fa24021995
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundButton_Pressed
       rect:
         serializedVersion: 2
         x: 936
@@ -285,9 +609,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: NextButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e6d443cd6fb4ee8a61f7e28151e3b0
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NextButton_Normal
       rect:
         serializedVersion: 2
         x: 787
@@ -295,9 +630,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlayButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba69348790f8a418ba550ca027403464
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton_Normal
       rect:
         serializedVersion: 2
         x: 860
@@ -305,9 +651,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundOffButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaba6c4c1b82a4aec8062d930255c8bd
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundOffButton_Normal
       rect:
         serializedVersion: 2
         x: 936
@@ -315,9 +672,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: NextButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb7882bef2204cbf97bb89b84bf101e
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NextButton_Hover
       rect:
         serializedVersion: 2
         x: 788
@@ -325,9 +693,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlayButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20cab4f2638b41c6860e5ac264aee39
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton_Hover
       rect:
         serializedVersion: 2
         x: 861
@@ -335,9 +714,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundOffButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91a2f84a2a484fccbf8d432f6aa5965
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundOffButton_Hover
       rect:
         serializedVersion: 2
         x: 936
@@ -345,9 +735,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: NextButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf893962f0333459a855e70b8cf62015
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NextButton_Pressed
       rect:
         serializedVersion: 2
         x: 787
@@ -355,9 +756,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlayButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb7d8e8b7e1444ef854129f60abcff7
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton_Pressed
       rect:
         serializedVersion: 2
         x: 860
@@ -365,9 +777,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundOffButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c124b1a594a24d00b1370bf385f4c8b
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundOffButton_Pressed
       rect:
         serializedVersion: 2
         x: 936
@@ -375,9 +798,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OptionsButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1210ea15234efaa24d739370617d4
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsButton_Normal
       rect:
         serializedVersion: 2
         x: 787
@@ -385,9 +819,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RetryButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4e4c2290f54e1289a31731eb08a81
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetryButton_Normal
       rect:
         serializedVersion: 2
         x: 860
@@ -395,9 +840,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: HelpButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bf5f846b3ff483bbb9f9fae0f822c2
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpButton_Normal
       rect:
         serializedVersion: 2
         x: 936
@@ -405,9 +861,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OptionsButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a374e2a790f490a819eee4ca2e16cb
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsButton_Hover
       rect:
         serializedVersion: 2
         x: 788
@@ -415,9 +882,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RetryButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206be1a59420040ec878a93770ac36b9
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetryButton_Hover
       rect:
         serializedVersion: 2
         x: 861
@@ -425,9 +903,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: HelpButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9868542f3c0064952828f4175f19bfcb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpButton_Hover
       rect:
         serializedVersion: 2
         x: 936
@@ -435,9 +924,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OptionsButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c65236438b84bb48cc7a2ad2dcd5fe
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsButton_Pressed
       rect:
         serializedVersion: 2
         x: 787
@@ -445,9 +945,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RetryButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df8ee10379c47ca8f2095f3893da14
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetryButton_Pressed
       rect:
         serializedVersion: 2
         x: 860
@@ -455,9 +966,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: HelpButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a1bc363d24c474f84ad4078706f5c1
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpButton_Pressed
       rect:
         serializedVersion: 2
         x: 936
@@ -465,9 +987,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ProgressBar
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5371a4b5a79b84d19b3d7cb519fe877a
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar
       rect:
         serializedVersion: 2
         x: 8
@@ -475,9 +1008,20 @@ TextureImporter:
         width: 456
         height: 58
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PauseButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd6483ef259440cf8efa84c9820edb1
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseButton_Normal
       rect:
         serializedVersion: 2
         x: 860
@@ -485,9 +1029,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 4
-      pivot: {x: 0, y: .5}
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SoundButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a27112b2e7184db09509f3dc27b2000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundButton_Normal
       rect:
         serializedVersion: 2
         x: 936
@@ -495,9 +1050,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Window
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77f7425b07bf43559b0e1f57bb95ee5
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window
       rect:
         serializedVersion: 2
         x: 4
@@ -505,9 +1071,20 @@ TextureImporter:
         width: 754
         height: 754
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Slider_Filler
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f905ff3efe654a548f51f38b87a649e
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Filler
       rect:
         serializedVersion: 2
         x: 324
@@ -515,9 +1092,20 @@ TextureImporter:
         width: 138
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PopupList_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e8c1c8004a847039d6058b7d69dcb4
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Normal
       rect:
         serializedVersion: 2
         x: 7
@@ -525,9 +1113,20 @@ TextureImporter:
         width: 140
         height: 58
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PopupList_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff145d65dfd14f3d89e7b182feeea5e
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupList_Hover
       rect:
         serializedVersion: 2
         x: 153
@@ -535,9 +1134,20 @@ TextureImporter:
         width: 140
         height: 57
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: EmptyButton_Normal
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12184877a9d2642c4bf9748a943c5a95
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyButton_Normal
       rect:
         serializedVersion: 2
         x: 6
@@ -545,9 +1155,20 @@ TextureImporter:
         width: 139
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: EmptyButton_Hover
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266f8b1de014549cf89711de6383bc99
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyButton_Hover
       rect:
         serializedVersion: 2
         x: 150
@@ -555,9 +1176,20 @@ TextureImporter:
         width: 138
         height: 58
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: EmptyButton_Pressed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126cabdbb5c95493cb6063ab2dc54967
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyButton_Pressed
       rect:
         serializedVersion: 2
         x: 294
@@ -565,9 +1197,20 @@ TextureImporter:
         width: 139
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: empty
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff1f8d65595c4e9da912ed56d29f552
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty
       rect:
         serializedVersion: 2
         x: 816
@@ -575,9 +1218,20 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Slider_Vertical
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb9499764e634219afa05e7da9254f3
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Vertical
       rect:
         serializedVersion: 2
         x: 762
@@ -585,9 +1239,20 @@ TextureImporter:
         width: 17
         height: 456
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Icon_Lock
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dee45281316444d88de1eb2b243fbc
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Lock
       rect:
         serializedVersion: 2
         x: 785
@@ -595,9 +1260,31 @@ TextureImporter:
         width: 80
         height: 102
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4149b14e0da9f4feea40e3b0d3c12aca
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
