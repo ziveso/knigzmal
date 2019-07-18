@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float InitialMoveSpeed = 2f;
     public float MoveSpeed = 2f;
-    public float MaxMoveSpeed = 10f;
+    public float JumpHeight = 2f;
+    private bool isFaceRight = true;
+    private bool isOwner = true;
+
+    [SerializeField]
+    Vector3 groundCheckCenter;
+    [SerializeField]
+    Vector3 groundCheckSize;
+    [SerializeField]
+    LayerMask whatIsGround;
+    public bool IsGrounded;
 
     private Rigidbody2D rb;
     private void Awake()
@@ -14,32 +23,66 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        MoveHorizontal();
+        if (isOwner)
+        {
+            MoveVertical();
+            MoveHorizontal();
+            CheckGround();
+        }
+        ChangeDirection();
     }
 
     private void MoveHorizontal()
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
-        if (horizontalInput == 0)
+        rb.velocity = new Vector2(horizontalInput * MoveSpeed, rb.velocity.y);
+    }
+
+    private void MoveVertical()
+    {
+        if (Input.GetAxisRaw("Vertical") == 1 && IsGrounded)
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            return;
+            Jump();
         }
-        Vector2 velocity = rb.velocity;
-        if (Mathf.Abs(rb.velocity.x) <= InitialMoveSpeed)
+    }
+
+    private void CheckGround()
+    {
+        IsGrounded = Physics2D.OverlapArea(
+            new Vector2(transform.position.x + groundCheckCenter.x - groundCheckSize.x,
+                        transform.position.y + groundCheckCenter.y - groundCheckSize.y),
+            new Vector2(transform.position.x + groundCheckCenter.x + groundCheckSize.x,
+                        transform.position.y + groundCheckCenter.y + groundCheckSize.y),
+            whatIsGround);
+
+        Debug.DrawLine(new Vector2(transform.position.x + groundCheckCenter.x - groundCheckSize.x,
+                            transform.position.y + groundCheckCenter.y - groundCheckSize.y),
+                        new Vector2(transform.position.x + groundCheckCenter.x + groundCheckSize.x,
+                            transform.position.y + groundCheckCenter.y + groundCheckSize.y), Color.red);
+    }
+
+    private void ChangeDirection()
+    {
+        if (rb.velocity.x > 0 && !isFaceRight)
         {
-            velocity.x = horizontalInput * InitialMoveSpeed;
+            Flip();
         }
-        else if (Mathf.Abs(rb.velocity.x) >= MaxMoveSpeed)
+        if (rb.velocity.x < 0 && isFaceRight)
         {
-            velocity.x = horizontalInput * MaxMoveSpeed;
+            Flip();
         }
-        else
-        {
-            velocity.x += horizontalInput * MoveSpeed * Time.deltaTime;
-        }
-        rb.velocity = velocity;
+    }
+
+    private void Flip()
+    {
+        isFaceRight = !isFaceRight;
+        GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+    }
+
+    private void Jump()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
     }
 }

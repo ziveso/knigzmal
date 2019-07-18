@@ -130,7 +130,8 @@ GameObject:
   m_Component:
   - component: {fileID: 110482503}
   - component: {fileID: 110482502}
-  m_Layer: 0
+  - component: {fileID: 110482504}
+  m_Layer: 8
   m_Name: mounted platform 4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,6 +200,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &110482504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110482501}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1001 &150251457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,6 +237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -289,7 +321,8 @@ GameObject:
   m_Component:
   - component: {fileID: 167578937}
   - component: {fileID: 167578936}
-  m_Layer: 0
+  - component: {fileID: 167578938}
+  m_Layer: 8
   m_Name: mounted platform 4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,6 +391,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &167578938
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167578935}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1 &298059228
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +427,8 @@ GameObject:
   m_Component:
   - component: {fileID: 298059230}
   - component: {fileID: 298059229}
-  m_Layer: 0
+  - component: {fileID: 298059231}
+  m_Layer: 8
   m_Name: mounted platform 4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,6 +497,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &298059231
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298059228}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1 &368847643
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +533,8 @@ GameObject:
   m_Component:
   - component: {fileID: 368847645}
   - component: {fileID: 368847644}
-  m_Layer: 0
+  - component: {fileID: 368847646}
+  m_Layer: 8
   m_Name: mounted platform 4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,6 +603,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &368847646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368847643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1001 &400633362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -527,6 +640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -730,6 +848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -809,6 +932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -890,6 +1018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -970,6 +1103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1049,6 +1187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -1136,6 +1279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,6 +1363,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -1379,6 +1532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1458,6 +1616,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -1539,6 +1702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1619,6 +1787,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1697,7 +1870,8 @@ GameObject:
   m_Component:
   - component: {fileID: 766230402}
   - component: {fileID: 766230401}
-  m_Layer: 0
+  - component: {fileID: 766230403}
+  m_Layer: 8
   m_Name: mounted platform 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1766,6 +1940,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &766230403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766230400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1001 &820040206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1777,6 +1977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -1858,6 +2063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1937,6 +2147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -2018,6 +2233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2098,6 +2318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2176,7 +2401,8 @@ GameObject:
   m_Component:
   - component: {fileID: 952195654}
   - component: {fileID: 952195653}
-  m_Layer: 0
+  - component: {fileID: 952195655}
+  m_Layer: 8
   m_Name: mounted platform 4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2245,6 +2471,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &952195655
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952195652}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1001 &955507411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2256,6 +2508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -2337,6 +2594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2416,6 +2678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -2497,6 +2764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2576,6 +2848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -2657,6 +2934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2735,7 +3017,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1362017455}
   - component: {fileID: 1362017454}
-  m_Layer: 0
+  - component: {fileID: 1362017456}
+  m_Layer: 8
   m_Name: mounted platform 4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,6 +3087,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1362017456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362017453}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1 &1364472640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +3122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1364472641}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,6 +3190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -2962,6 +3276,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3041,6 +3360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -3170,6 +3494,11 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 28107790547457218, guid: 7aed946b5664405459098c6b3528627a,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aed946b5664405459098c6b3528627a, type: 3}
 --- !u!1 &1643278426 stripped
@@ -3190,9 +3519,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0405ec5264c7e4fb4aed4b16558d4735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialMoveSpeed: 10
-  MoveSpeed: 5
-  MaxMoveSpeed: 30
+  MoveSpeed: 10
+  JumpHeight: 20
+  groundCheckCenter: {x: 0.47, y: -1.9, z: 0}
+  groundCheckSize: {x: 0.75, y: 0.1, z: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
+  IsGrounded: 0
+--- !u!114 &1643278433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643278426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6d9269ea3a74ec1954031999205a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1659060328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3242,6 +3588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -3323,6 +3674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3403,6 +3759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3481,7 +3842,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1883300289}
   - component: {fileID: 1883300288}
-  m_Layer: 0
+  - component: {fileID: 1883300290}
+  m_Layer: 8
   m_Name: mounted platform 4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3550,6 +3912,32 @@ Transform:
   m_Father: {fileID: 1659060329}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1883300290
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883300287}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.16, y: 1.16}
+    newSize: {x: 5.16, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.16, y: 1.16}
+  m_EdgeRadius: 0
 --- !u!1001 &1927439796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3561,6 +3949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -3642,6 +4035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3721,6 +4119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -3802,6 +4205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Land (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3881,6 +4289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Land (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114781771922766636, guid: 6c240df3de87b4891aeb9605ac5567d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6114781771922766638, guid: 6c240df3de87b4891aeb9605ac5567d9,
         type: 3}
@@ -4016,11 +4429,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6114781771922766639, guid: 6c240df3de87b4891aeb9605ac5567d9,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c240df3de87b4891aeb9605ac5567d9, type: 3}
