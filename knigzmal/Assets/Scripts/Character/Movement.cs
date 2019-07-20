@@ -17,10 +17,15 @@ public class Movement : MonoBehaviour
     LayerMask whatIsGround;
     public bool IsGrounded;
 
+    private Animator animator;
+
+    public GameObject weapon;
+
     private Rigidbody2D rb;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -32,6 +37,14 @@ public class Movement : MonoBehaviour
             CheckGround();
         }
         ChangeDirection();
+        if (rb.velocity.x != 0)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
     }
 
     private void MoveHorizontal()
@@ -78,7 +91,9 @@ public class Movement : MonoBehaviour
     private void Flip()
     {
         isFaceRight = !isFaceRight;
-        GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        // GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+        // weapon.GetComponent<SpriteRenderer>().flipX = !weapon.GetComponent<SpriteRenderer>().flipX;
     }
 
     private void Jump()
