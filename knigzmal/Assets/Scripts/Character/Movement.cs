@@ -7,19 +7,14 @@ public class Movement : MonoBehaviour
     public float MoveSpeed = 2f;
     public float JumpHeight = 2f;
     private bool isFaceRight = true;
-    private bool isOwner = true;
+    private bool IsOwner = true;
 
-    [SerializeField]
-    Vector3 groundCheckCenter;
-    [SerializeField]
-    Vector3 groundCheckSize;
-    [SerializeField]
-    LayerMask whatIsGround;
+    public Vector3 groundCheckCenter;
+    public Vector3 groundCheckSize;
+    public LayerMask whatIsGround;
     public bool IsGrounded;
 
     private Animator animator;
-
-    public GameObject weapon;
 
     private Rigidbody2D rb;
     private void Awake()
@@ -30,7 +25,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (isOwner)
+        if (rb.velocity.y <= 0)
+        {
+            // make it fall faster;
+            rb.velocity -= new Vector2(0, 0.1f);
+        }
+        if (IsOwner)
         {
             MoveVertical();
             MoveHorizontal();
@@ -92,8 +92,6 @@ public class Movement : MonoBehaviour
     {
         isFaceRight = !isFaceRight;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-        // GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
-        // weapon.GetComponent<SpriteRenderer>().flipX = !weapon.GetComponent<SpriteRenderer>().flipX;
     }
 
     private void Jump()
